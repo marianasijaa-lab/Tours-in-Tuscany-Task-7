@@ -36,7 +36,7 @@ export default function BookNowSection({
           </div>
 
           {/* Bike Image  */}
-          <div className="relative w-full lg:w-1/2 flex-shrink-0 h-[280px] md:h-[420px] lg:h-[450px] lg:-mb-[120px] -mb-[70px] sm:-mb-16">
+          <div className="relative w-full lg:w-1/2 flex-shrink-0 h-[240px] md:h-[420px] lg:h-[450px] lg:-mb-[120px] -mb-[58px] ">
             <Image
               src={bikeImageUrl}
               alt={heading}
