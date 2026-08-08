@@ -100,7 +100,7 @@ export default function BookingForm({ serviceOptions }: BookingFormProps) {
             className={`w-full border rounded-lg px-4 py-2.5 text-[13px] text-gray-700 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#FA8B02] ${errors.name ? 'border-red-500' : 'border-white'}`}
             aria-invalid={!!errors.name}
           />
-          {errors.name && <p className="text-red-500 text-xs mt-1" role="alert">{errors.name}</p>}
+          {errors.name && <p className="text-red-600 text-xs mt-1" role="alert">{errors.name}</p>}
         </div>
         <div>
           <label htmlFor="booking-email" className="block text-base font-semibold text-[#333333] mb-1">
@@ -115,7 +115,7 @@ export default function BookingForm({ serviceOptions }: BookingFormProps) {
             className={`w-full border rounded-lg px-4 py-2.5 text-[13px] text-gray-700 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#FA8B02] ${errors.email ? 'border-red-500' : 'border-white'}`}
             aria-invalid={!!errors.email}
           />
-          {errors.email && <p className="text-red-500 text-xs mt-1" role="alert">{errors.email}</p>}
+          {errors.email && <p className="text-red-600 text-xs mt-1" role="alert">{errors.email}</p>}
         </div>
       </div>
 
@@ -156,7 +156,7 @@ export default function BookingForm({ serviceOptions }: BookingFormProps) {
               <path d="M2 4L6 8L10 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
           </div>
-          {errors.serviceType && <p className="text-red-500 text-xs mt-1" role="alert">{errors.serviceType}</p>}
+          {errors.serviceType && <p className="text-red-600 text-xs mt-1" role="alert">{errors.serviceType}</p>}
         </div>
       </div>
 
@@ -184,7 +184,7 @@ export default function BookingForm({ serviceOptions }: BookingFormProps) {
               className="absolute right-3 top-1/2 -translate-y-1/2 pointer-events-none"
             />
           </div>
-          {errors.date && <p className="text-red-500 text-xs mt-1" role="alert">{errors.date}</p>}
+          {errors.date && <p className="text-red-600 text-xs mt-1" role="alert">{errors.date}</p>}
         </div>
         <div>
           <label htmlFor="booking-time" className="block text-base font-semibold text-[#333333] mb-1">
@@ -212,7 +212,7 @@ export default function BookingForm({ serviceOptions }: BookingFormProps) {
               className="absolute right-3 top-1/2 -translate-y-1/2 pointer-events-none"
             />
           </div>
-          {errors.time && <p className="text-red-500 text-xs mt-1" role="alert">{errors.time}</p>}
+          {errors.time && <p className="text-red-600 text-xs mt-1" role="alert">{errors.time}</p>}
         </div>
       </div>
 

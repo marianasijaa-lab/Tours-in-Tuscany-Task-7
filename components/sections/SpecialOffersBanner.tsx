@@ -63,7 +63,7 @@ export default function SpecialOffersBanner({
         </div>
       </div>
 
-      {/* ── sm+ (≥ 640px): side by side, image overflows bottom ── */}
+      {/* ── sm+ (≥ 640px): side by side*/}
       <section className="hidden sm:block relative overflow-visible sm:h-[300px] md:h-[380px] lg:h-[300px]">
         {/* Background */}
         <Image
@@ -95,7 +95,7 @@ export default function SpecialOffersBanner({
 
           {/* Image — overflows top on md, bottom on lg */}
           <div className="absolute right-[20px] bottom-0 w-[220px] h-[300px]
-            md:right-[40px]  md:w-[280px] md:h-auto
+            md:right-[40px] md:-bottom-5 md:top-[-80px] md:w-[280px] md:h-auto
             lg:top-auto lg:bottom-[-20px] lg:right-[80px] lg:w-[340px] lg:h-[392px]">
             <Image
               src={imageUrl}

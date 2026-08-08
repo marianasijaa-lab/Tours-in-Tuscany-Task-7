@@ -228,7 +228,7 @@ export default function SearchBar({ destinations }: SearchBarProps) {
 
       {/* Validation message */}
       {searchError && (
-        <p className="text-red-400 text-sm mt-2 text-center font-semibold" role="alert">
+        <p className="text-red-600 text-sm mt-2 text-center font-semibold" role="alert">
           {searchError}
         </p>
       )}
